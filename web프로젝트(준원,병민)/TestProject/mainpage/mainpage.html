@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<!--
+	Eventually by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Test Project</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body>
+		    <h1>LISTING</h1>
+		<!--	<form action="https://codeup.kr/test12" method="POST">-->
+				<center>
+					<p>
+						<!--<input class="text_box" type="search" name="search" autofocus required placeholder="상품명을 입력해 주세요">-->
+							<label for="urlCopyMessage">URL 공유하기--- </label>
+							<input class="text_box" <type="search" id="urlCopyMessage" name="urlCopyMessage" placeholder="http://" value="http://" readonly>
+
+					</p>
+				<!--	<input type="submit" value="Sign Up" />-->
+				<input class="text_box"<type="search" id="myInput"  value="http://">
+<button onclick="copy_to_clipboard()">클립보드로 복사</button>
+
+<script>
+function copy_to_clipboard() {
+  var copyText = document.getElementById("myInput");
+  copyText.select();
+  document.execCommand("Copy");
+}
+</script>
+			<!--		<button type="button" class="btn-type auto btn-copyUrl ga-scs-Msg-copyUrl" data-clipboard-action="copy" data-clipboard-target="#urlCopyMessage" aria-label="복사되었습니다.">복사하기</button>-->
+					<p>
+					</p>
+					<a href="../search/AC.html">상세검색</a>
+					<a href="../login/index.html">로그인</a>
+					<a href="../homepage/index.html">건너뛰기</a>
+				</center>
+
+			</form>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<ul class="copyright">
+					<li>&copy; LISTING.</li><li>연락처: <a href="https://naver.com">Cpprhtn@naver.com</a></li>
+				</ul>
+			</footer>
+
+		<!-- Scripts -->
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
